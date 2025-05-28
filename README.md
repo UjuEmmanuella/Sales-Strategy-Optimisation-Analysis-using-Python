@@ -1,7 +1,7 @@
 # Sales Strategy Optimisation Analysis using Python
 
 ## Project Overview
-This project explores the effectiveness of three sales strategies—Email, Call, and Email + Call at Pens and Printers Limited who launched a new line of office stationery aimed at boosting workplace creativity.  To support the success of this innovative product line, the primary business goal is to identify which strategy yields the highest return in revenue and customer engagement. You can find the comprehensive report on Medium [here.](You can find the comprehensive report and in-depth documentation on [Medium here.](https://medium.com/@UjuEmmanuella/sales-strategy-analysis-for-a-new-product-line-a-data-driven-case-study-in-sales-strategy-fd386a02e46d)
+This project explores the effectiveness of three sales strategies—Email, Call, and Email + Call at Pens and Printers Limited who launched a new line of office stationery aimed at boosting workplace creativity.  To support the success of this innovative product line, the primary business goal is to identify which strategy yields the highest return in revenue and customer engagement. You can find the comprehensive report on Medium [here.](https://medium.com/@UjuEmmanuella/sales-strategy-analysis-for-a-new-product-line-a-data-driven-case-study-in-sales-strategy-fd386a02e46d)
 
 ---
 
@@ -48,7 +48,7 @@ The dataset `product_sales.csv` from DataCamp  contains sales records from the f
 
 ---
 
-## Data Cleaning & Preparation
+## Data Cleaning & Validation
 
 - **Sales Method**  
   Standardized inconsistent labels (e.g., `"em + call"`) into three clean categories:  
@@ -192,6 +192,7 @@ sales_data.info()
 customers_by_sales_method = sales_data['sales_method'].value_counts()
 print(customers_by_sales_method)
 
+# The number of customers for each sales method are:
 # Email: 7,466 customers
 # Call: 4,962 customers
 # Email + Call: 2,572 customers
@@ -234,6 +235,7 @@ plt.title('Revenue Distribution by Sales Method')
 plt.suptitle('')  # Remove auto-generated sup-title
 plt.show()
 
+# The revenue distribution across different sales methods are:
 # Call: Mostly between $50–$75
 # Email: $75–$125, with outliers beyond $150
 # Email + Call: $100–$175, with outliers beyond $200
@@ -252,6 +254,7 @@ plt.title('Revenue over Time by Sales Method')
 plt.legend(title='Sales Method')
 plt.show()
 
+# Result shows:
 # Email: Steady decline after week 1
 # Call: Fluctuates, with a drop in week 6
 # Email + Call: Consistent upward trend
