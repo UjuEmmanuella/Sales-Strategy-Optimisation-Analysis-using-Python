@@ -1,7 +1,7 @@
 # Sales Strategy Optimisation Analysis using Python
 
 ## Project Overview
-This project explores the effectiveness of three sales strategies—Email, Call, and Email + Call at Pens and Printers Limited who launched a new line of office stationery aimed at boosting workplace creativity.  To support the success of this innovative product line, the primary business goal is to identify which strategy yields the highest return in revenue and customer engagement. You can find the comprehensive report on Medium [here.](You can find the comprehensive report and in-depth documentation on Medium here.)
+This project explores the effectiveness of three sales strategies—Email, Call, and Email + Call at Pens and Printers Limited who launched a new line of office stationery aimed at boosting workplace creativity.  To support the success of this innovative product line, the primary business goal is to identify which strategy yields the highest return in revenue and customer engagement. You can find the comprehensive report on Medium [here.](You can find the comprehensive report and in-depth documentation on [Medium here.](https://medium.com/@UjuEmmanuella/sales-strategy-analysis-for-a-new-product-line-a-data-driven-case-study-in-sales-strategy-fd386a02e46d)
 
 ---
 
@@ -365,6 +365,6 @@ print(grouped_data[['sales_method', 'ARPSE']])
 
 ## 📂 Files & Resources
 
-📜 Python Script: [Sales_Strategy_Optisation_Analysis](Sales_Strategy_Analysis/python_notebook.ipynb)
+📜 Python Script: [Sales_Strategy_Optimisation_Analysis](Sales_Strategy_Analysis/python_notebook.ipynb)
 
 ✍🏽 Medium Write-Up : [Read article here](https://medium.com/@UjuEmmanuella/sales-strategy-analysis-for-a-new-product-line-a-data-driven-case-study-in-sales-strategy-fd386a02e46d)
